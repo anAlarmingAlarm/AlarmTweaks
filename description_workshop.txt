@@ -1,0 +1,11 @@
+Alarm Tweaks adds some minor changes to the game that I feel improve the Terraria experience.
+The full list of changes can be found here: https://sites.google.com/view/alarmingalarm/tmodloader/tweaks
+Every change can be enabled or disabled in the configuration menu. Some changes allow for further customization than simply on or off (e.g. the config option allowing access to the pylon network from anywhere can be set to never, always, or only when the player has a Magic Mirror or upgrade of it).
+Feel free to comment with feedback, suggestions, and/or bug reports; I'll typically respond within a day or two (if I have anything to say).
+
+Latest update: v2.0 (click on the Change Notes tab at the top for previous release notes)
+[list]
+    [*]
+[/list]
+
+If you're more into brain-melting nonsense, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3045601444]Alarm Mod[/url] (where I put most of my original content ideas)

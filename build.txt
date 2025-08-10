@@ -1,0 +1,4 @@
+displayName = Alarm Tweaks
+author = anAlarmingAlarm
+version = 2.0
+homepage = https://sites.google.com/view/alarmingalarm/tmodloader/tweakshttps://steamcommunity.com/sharedfiles/filedetails/?id=3045600313

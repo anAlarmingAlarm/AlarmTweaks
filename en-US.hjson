@@ -1,0 +1,385 @@
+Mods: {
+	AlarmTweaks: {
+		Items: {
+			JourneyTicket: {
+				DisplayName: Journey Ticket
+				Tooltip: Can be redeemed for starting items in your crafting interface
+			}
+		}
+
+		Conditions.Raining: While raining
+
+		Buffs: {
+			NegativeLuck: {
+				DisplayName: Unlucky
+				Description: If you're seeing this, something is wrong
+			}
+
+			PositiveLuck: {
+				DisplayName: Lucky
+				Description: If you're seeing this, something is wrong
+			}
+
+			RubyStaffBuff: {
+				DisplayName: Ruby Barrage
+				Description: If you're seeing this, something is wrong
+			}
+		}
+
+		Configs: {
+			AlarmConfig: {
+				DisplayName: Server Config
+
+				pearlwoodHammer: {
+					Tooltip: Increases the stats of the Pearlwood Hammer
+					Label: Pearlwood Hammer buff
+				}
+
+				reaverShark: {
+					Tooltip: Restores the Reaver Shark to 100% pickaxe power
+					Label: Revert Reaver Shark nerf
+				}
+
+				Headers: {
+					Tools: Tools
+					Weapons: Weapons
+					Armor: Armor
+					Accessories: Accessories
+					Drops: Drops
+					Pylons: Pylons
+					Miscellaneous: Miscellaneous
+					NPCs: NPCs
+					Recipes: Recipes
+				}
+
+				daedalusStormbow: {
+					Tooltip: Increases the speed of the Daedalus Stormbow so that it fires at the same rate with special arrows that it did before 1.4 (and fires even faster with other arrows)
+					Label: Daedalus Stormbow buff
+				}
+
+				pearlwoodBow: {
+					Tooltip: Increases the Pearlwood Bow's stats and adds a special effect that turns Wooden Arrows into Jester's Arrows
+					Label: Pearlwood Bow buff
+				}
+
+				pearlwoodSword: {
+					Tooltip: Drastically increases the damage of the Pearlwood Sword
+					Label: Pearlwood Sword buff
+				}
+
+				starCannon: {
+					Tooltip: Decreases the damage of the Star Cannon
+					Label: Star Cannon nerf
+				}
+
+				breakerBlade: {
+					Label: Breaker Blade nerf
+					Tooltip: Decreases the damage of the Breaker Blade and reduces its damage bonus against unhurt enemies from 150% to 75%
+				}
+
+				repeaters: {
+					Label: Repeater rework
+					Tooltip: Reworks repeaters (excluding the Stake Launcher) to have less damage, faster firing, and slight armor penetration
+				}
+
+				lastPrism: {
+					Label: Last Prism fix
+					Tooltip: Makes the Last Prism not expire after a minute of continuous fire
+				}
+
+				journeyTicket: {
+					Tooltip: Replaces the Finch Staff in new Journey Mode characters' inventories with 3 Journey Tickets, which can be redeemed for starting items
+					Label: Give Journey Tickets to new Journey characters
+				}
+
+				pearlwoodSet: {
+					Label: Pearlwood Set
+					Tooltip: Reworks the Pearlwood armor set to be an early Hardmode hybrid set
+				}
+
+				woodGreaves: {
+					Label: Wood Greaves give defense
+					Tooltip: Moves the defense bonus of the Wood Armor set bonus to the Wood Greaves
+				}
+
+				bewitchedEffect: {
+					Label: Summoner Emblem grants Bewitched
+					Tooltip: Makes the Summoner Emblem and its upgrades grant the Bewitched effect
+				}
+
+				duneriderBoots: {
+					Label: Dunerider Boots immune to Mighty Wind
+					Tooltip: Makes Dunerider Boots grant immunity to Mighty Wind, preventing you from being moved by sandstorms
+				}
+
+				terrasparkDunerider: {
+					Label: Add Dunerider Boots to Terraspark Boots
+					Tooltip: Adds the Dunerider Boots to the Terraspark Boots recipe, along with its effects (including the above if enabled)
+				}
+
+				putridScentUpgrades: {
+					Label: Putrid Scent upgrades give stats
+					Tooltip: Makes upgrades to Putrid Scent give the same damage and critical strike chance increase
+				}
+
+				obsidianRose: {
+					Label: Obsidian Rose grants immunity to On Fire!
+					Tooltip: Makes the Obsidian Rose and its upgrades grant immunity to On Fire!
+				}
+
+				heroShield: {
+					Label: Hero Shield defense buff
+					Tooltip: Increases the defense of the Hero Shield to be the sum of its parts' defense values
+				}
+
+				soaringInsignia: {
+					Label: Soaring Insignia negates fall damage
+					Tooltip: Makes the Soaring Insignia negate fall damage, making it safer to use with just boots
+				}
+
+				dashDamageReduction: {
+					Label: Tabi Dash damage reduction
+					Tooltip: Makes the Tabi and Master Ninja Gear grant 25% damage reduction and knockback immunity while dashing
+				}
+
+				guide: {
+					Label: Green Cap drop
+					Tooltip: Makes the Guide always drop the Green Cap, regardless of name
+				}
+
+				steampunker: {
+					Label: Ivy drop
+					Tooltip: Makes the Steampunker always drop Ivy, regardless of name
+				}
+
+				painter: {
+					Label: Jim's Cap drop
+					Tooltip: Makes the Painter always drop Jim's Cap, regardless of name
+				}
+
+				townNPCDrops: {
+					Label: Non-conditional Town NPC drops are guaranteed
+					Tooltip: Makes Town NPC drops that aren't based on the NPC's name guaranteed
+				}
+
+				wyvernSouls: {
+					Label: Wyvern Soul of Flight decrease
+					Tooltip: Reduces the amount of Souls of Flight that are dropped by Wyverns
+				}
+
+				wyvernLightNight: {
+					Label: Wyvern day/night drops
+					Tooltip: Makes Wyverns drop Souls of Light & Light Shards during the day and Souls of Night & Dark Shards during the night
+				}
+
+				rally: {
+					Label: Rally drop chance increase
+					Tooltip: Increases the drop chance of Rally
+				}
+
+				boneSword: {
+					Label: Bone Sword drop chance increase
+					Tooltip: Drastically increases the drop chance of the Bone Sword
+				}
+
+				obsidianRoseDrop: {
+					Label: Obsidian Rose drop chance increase
+					Tooltip: Increases the drop chance of the Obsidian Rose
+				}
+
+				noNPCs: {
+					Label: No NPCs
+					Tooltip: Makes Pylons not require NPCs to be nearby to be used
+				}
+
+				noDistance: {
+					Label: Teleport from anywhere
+					Tooltip: Allows players to teleport to pylons from anywhere
+				}
+
+				noDanger: {
+					Label: Remain active during bosses/events
+					Tooltip: Makes Pylons stay active regardless of bosses or events
+				}
+
+				unlimitedPylons: {
+					Label: Unlimited Pylons
+					Tooltip: Allows an infinite amount of pylons to be placed
+				}
+
+				terragrim: {
+					Label: Terragrim recipe
+					Tooltip: Adds a recipe for the Terragrim
+				}
+
+				bottledWater: {
+					Label: Bottle Water from Rain
+					Tooltip: Allows you to craft Bottled Water by hand with Bottles when it's raining
+				}
+
+				shadowChest: {
+					Label: Shadow Chest recipe
+					Tooltip: Adds a recipe for Shadow Chests during Hardmode
+				}
+
+				shroomiteRecipe: {
+					Label: Shroomite Bar cost reduction
+					Tooltip: The number of Glowing Mushrooms needed per Shroomite Bar is reduced from 15 to 8
+				}
+
+				dirtRecipe: {
+					Label: The Great Dirt Compactor
+					Tooltip: Adds a recipe for the Dirtiest Block, requiring a full inventory of full stacks of Dirt Blocks. Good luck!
+				}
+
+				chilled: {
+					Label: Reduced Chilled effect
+					Tooltip: Reduces the movement speed penalty of Chilled from 25% to 15%
+				}
+
+				happyGrenade: {
+					Label: Conditionless Happy Grenades
+					Tooltip: The Party Girl always sells Happy Grenades, regardless of if you have them in your inventory or not
+				}
+
+				travelingMerchantBlocks: {
+					Label: Traveling Merchant always sells blocks
+					Tooltip: The Traveling Merchant always sells building blocks, selling them alongside his original stock if it didn't contain them
+				}
+
+				oldChest: {
+					Label: Old Shaking Chest only spawns when practical to free it
+					Tooltip: The Old Shaking Chest now only spawns if you are in the Dungeon or have a Golden Key in your inventory
+				}
+
+				tombstones: {
+					Label: Craftable Tombstones
+					Tooltip: Every kind of Tombstone can be crafted with 25 Stone Blocks (Golden Tombstones require an additional Gold Coin to craft)
+				}
+
+				gemStaffRecipe: {
+					Label: Gem staves from equivalent bars
+					Tooltip: Gem staves can be crafted using their equivalent bars (so an Amethyst Staff can be crafted with Tin Bars, for example)
+				}
+
+				torchRecipe: {
+					Label: Recipes allow any torch
+					Tooltip: Recipes that require normal torches now allow any torch to be used instead
+				}
+
+				knockback: {
+					Label: No knockback does not affect modifiers
+					Tooltip: Weapons with no knockback can get modifiers that affect knockback
+				}
+
+				minishark: {
+					Label: Minishark buff
+					Tooltip: The Minishark now has 10 armor penetration
+				}
+
+				tavernkeepSentries: {
+					Label: Tavernkeep sentries always usable
+					Tooltip: Sentries sold by the Tavernkeep can be used outside of the Old One's Army event, even if it hasn't been completed previously
+				}
+
+				noTombstones: {
+					Label: No Tombstones
+					Tooltip: Players do not drop Tombstones on death (use with Craftable Tombstones, otherwise you won't have a way to access Tombstones outside of Hardcore mode)
+				}
+
+				revolver: {
+					Label: Revolver High Velocity Bullet effect
+					Tooltip: The Revolver converts Musket Balls, Silver Bullets, and Tungsten Bullets into High-Velocity Bullets
+				}
+
+				gemStaves: {
+					Label: Gem staff rework
+					Tooltip: Adds unique effects to each gem staff (see mod changelist or changelog for detailed list)
+				}
+
+				vineRope: {
+					Label: Vine Rope sell value
+					Tooltip: Vine Rope now has a sell value of 2 copper, and Vine Rope Coil has a sell value of 20 copper
+				}
+
+				bladeOfGrass: {
+					Label: Blade of Grass buff
+					Tooltip: Increases the damage of the Blade of Grass, and increases the damage its projectile inherits
+				}
+
+				muramasa: {
+					Label: Muramasa buff
+					Tooltip: The Muramasa now has 5 armor penetration
+				}
+
+				wandOfFrosting: {
+					Label: Wand of Frosting buff
+					Tooltip: Increases the damage of the Wand of Frosting, and increases its velocity
+				}
+
+				coalRecipe: {
+					Label: Coal Torch recipe
+					Tooltip: 1 Coal and 3 Wood can be used to craft 9 Torches
+				}
+
+				coalStack: {
+					Label: Stackable Coal
+					Tooltip: Coal can be stacked up to 9999
+				}
+
+				coalRarity: {
+					Label: Coal Gray rarity
+					Tooltip: Sets the rarity of Coal to Gray
+				}
+
+				magicQuiver: {
+					Label: Magic Quiver stacks with velocity multiplier
+					Tooltip: Magic Quiver's velocity multiplier stacks with arrows that already have a velocity multiplier
+				}
+
+				magicQuiverTooltip: {
+					Label: Magic Quiver tooltip shows unlisted knockback effect
+					Tooltip: Adds the Magic Quiver's unlisted arrow knockback bonus to its tooltip
+				}
+
+				molecart: {
+					Label: Digging Molecart works on surface
+					Tooltip: Disables the Digging Molecart's height check, allowing it to be used on the surface and above
+				}
+
+				damageVariation: {
+					Label: Damage variation %
+					Tooltip:
+						'''
+						Changes the damage variation of damage inflicted by the player
+						Increasing this above the vanilla amount of 15% may result in volatile damage amounts
+						'''
+				}
+
+				teamBlocksRecipe: {
+					Label: Team Blocks exchangable with platforms
+					Tooltip: Team Blocks can be converted into Team Platforms, and vice versa
+				}
+			}
+
+			AlarmConfigClient: {
+				DisplayName: Client Config
+
+				Headers: {
+					Weapons: Weapons Header
+					Miscellaneous: Miscellaneous Header
+				}
+
+				luck: {
+					Label: Luck display
+					Tooltip: Gives players with non-zero luck a buff showing them how much luck they have (does not change their luck)
+				}
+
+				prefixTheFix: {
+					Label: Prefixes replace 'The'
+					Tooltip: Items that can be reforged and start with 'The' will now have prefixes replace 'The' instead of going before it (e.g. 'Rapid The Undertaker' becomes 'Rapid Undertaker')
+				}
+			}
+		}
+	}
+}
